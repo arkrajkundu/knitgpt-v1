@@ -9,7 +9,7 @@ const patterns = [
     id: 1,
     name: "Cozy Cable Knit Sweater",
     difficulty: "Intermediate",
-    image: "/sweater.jpg",
+    image: "/patterns-sweater.jpg",
     tools: [
       { icon: Weight, label: "Needle Size", value: "3.5mm" },
       { icon: Weight, label: "Yarn Weight", value: "100g" },
@@ -25,7 +25,7 @@ const patterns = [
     id: 2,
     name: "Chunky Winter Beanie",
     difficulty: "Beginner",
-    image: "/beanie.jpg",
+    image: "/patterns-beanie.jpg",
     tools: [
       { icon: Weight, label: "Needle Size", value: "6mm" },
       { icon: Weight, label: "Yarn Weight", value: "150g" },
@@ -41,7 +41,7 @@ const patterns = [
     id: 3,
     name: "Lacy Summer Shawl",
     difficulty: "Advanced",
-    image: "/shawl.avif",
+    image: "/patterns-shawl.avif",
     tools: [
       { icon: Weight, label: "Needle Size", value: "4mm" },
       { icon: Weight, label: "Yarn Weight", value: "200g" },
@@ -57,7 +57,7 @@ const patterns = [
     id: 4,
     name: "Knitted Plant Pot Cover",
     difficulty: "Beginner",
-    image: "/beanie.jpg",
+    image: "/patterns-potcover.jpg",
     tools: [
       { icon: Weight, label: "Needle Size", value: "5mm" },
       { icon: Weight, label: "Yarn Weight", value: "50g" },
@@ -68,38 +68,6 @@ const patterns = [
       "Cast on 40 stitches. Work in seed stitch for 6 inches. Bind off. Sew side edges to form a cylinder.",
     finishing:
       "Slip over pot, stretch to fit snugly. Weave in ends.",
-  },
-  {
-    id: 5,
-    name: "Striped Baby Blanket",
-    difficulty: "Intermediate",
-    image: "/beanie.jpg",
-    tools: [
-      { icon: Weight, label: "Needle Size", value: "5.5mm" },
-      { icon: Weight, label: "Yarn Weight", value: "300g" },
-    ],
-    gauge: { icon: Pencil, label: "Gauge", value: "18 sts x 24 rows" },
-    stitch: { icon: Palette, label: "Stitch", value: "Garter Stitch" },
-    instructions:
-      "Cast on 120 stitches. Knit every row, changing colors every 20 rows. Continue until length is 36 inches.",
-    finishing:
-      "Weave in color changes neatly. Block if needed.",
-  },
-  {
-    id: 6,
-    name: "Fingerless Mitts",
-    difficulty: "Intermediate",
-    image: "/beanie.jpg",
-    tools: [
-      { icon: Weight, label: "Needle Size", value: "4mm" },
-      { icon: Weight, label: "Yarn Weight", value: "80g" },
-    ],
-    gauge: { icon: Pencil, label: "Gauge", value: "20 sts x 28 rows" },
-    stitch: { icon: Palette, label: "Stitch", value: "Stockinette Stitch" },
-    instructions:
-      "Cast on 40 stitches. Work in ribbing for 2 inches, then in stockinette for 4 inches. Leave thumb hole. Bind off.",
-    finishing:
-      "Sew side seam leaving space for thumb. Weave in all ends.",
   },
 ];
 

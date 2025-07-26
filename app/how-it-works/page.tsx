@@ -7,11 +7,11 @@ const features = [
     title: "AI-Powered Pattern Generation",
     description: "Our advanced AI algorithms ensure accurate and efficient pattern creation.",
   },
-  {
-    icon: <Rss className="h-6 w-6 mb-2" />,
-    title: "Instant Pattern Delivery",
-    description: "Receive your custom pattern instantly, ready to start knitting.",
-  },
+  // {
+  //   icon: <Rss className="h-6 w-6 mb-2" />,
+  //   title: "Instant Pattern Delivery",
+  //   description: "Receive your custom pattern instantly, ready to start knitting.",
+  // },
   {
     icon: <Palette className="h-6 w-6 mb-2" />,
     title: "Personalized Designs",

@@ -3,12 +3,11 @@ import Link from "next/link";
 import { Home, Sparkles, Image as GalleryIcon, User } from "lucide-react";
 
 const galleryItems = [
-  { id: 1, title: "Cozy Winter Scarf", subtitle: "Pattern by KnitGenius", image: "/knit-bg.jpg" },
-  { id: 2, title: "Elegant Lace Shawl", subtitle: "Pattern by KnitGenius", image: "/knit-bg.jpg" },
-  { id: 3, title: "Chunky Knit Beanie", subtitle: "Pattern by KnitGenius", image: "/knit-bg.jpg" },
-  { id: 4, title: "Fair Isle Sweater", subtitle: "Pattern by KnitGenius", image: "/knit-bg.jpg" },
-  { id: 5, title: "Cable Knit Cardigan", subtitle: "Pattern by KnitGenius", image: "/knit-bg.jpg" },
-  { id: 6, title: "Textured Baby Blanket", subtitle: "Pattern by KnitGenius", image: "/knit-bg.jpg" },
+  { id: 1, title: "Cozy Winter Scarf", subtitle: "Pattern by KnitGenius", image: "/gallery-cardigan.jpg" },
+  { id: 2, title: "Elegant Lace Shawl", subtitle: "Pattern by KnitGenius", image: "/gallery-beanie.jpg" },
+  { id: 3, title: "Chunky Knit Beanie", subtitle: "Pattern by KnitGenius", image: "/gallery-sweater.webp" },
+  { id: 4, title: "Fair Isle Sweater", subtitle: "Pattern by KnitGenius", image: "/gallery-shawl.jpg" },
+  { id: 5, title: "Cable Knit Cardigan", subtitle: "Pattern by KnitGenius", image: "/gallery-scarf.jpg" },
 ];
 
 export default function GalleryPage() {
